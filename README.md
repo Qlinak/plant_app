@@ -4,8 +4,8 @@ A new Flutter project following https://www.youtube.com/watch?v=LN668OAUrK4
 
 # Development list
 - Bottom NavBar (16/04/2023)
-- details page of each product (17/04/2023)
-- image list for product in details page
+- details page of each product (17/04/2023 - 18/04/2023)
+- Slidable image list for product in details page (18/04/2023)
 - search bar never disappear when scrolling down
 - app menu with effects
 

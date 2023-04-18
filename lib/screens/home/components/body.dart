@@ -1,7 +1,4 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:plant_app/constants.dart';
 import 'package:plant_app/screens/home/components/featured_plants.dart';
 import 'package:plant_app/screens/home/components/recommended_plants.dart';
 import 'package:plant_app/screens/home/components/titile_with_more_button.dart';

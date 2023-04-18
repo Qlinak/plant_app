@@ -1,5 +1,4 @@
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
@@ -20,7 +19,7 @@ class TitileWithMoreButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: kDefaultPadding, right: kDefaultPadding, bottom: kDefaultPadding / 2),
-      child: Container(
+      child: SizedBox(
         height: size.height * 0.05,
         child: Row(
           children: [
@@ -35,12 +34,12 @@ class TitileWithMoreButton extends StatelessWidget {
 }
 
 class MoreButton extends StatelessWidget {
-  MoreButton({
+  const MoreButton({
     super.key,
     required this.onPress,
   });
 
-  Function onPress;
+  final Function onPress;
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +69,7 @@ class TitileWithCustomUnderline extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 24,
       child: Stack(
         children: [
